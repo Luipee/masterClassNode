@@ -4,7 +4,7 @@ require('./stats')
 
 app = express()
 
-const appPort = '3000'
+const appPort = '3001'
 
 app.get('/' , (req, res) =>{
   res.send('Hello World')
